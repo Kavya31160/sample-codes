@@ -1,0 +1,37 @@
+server:
+  port: 9111
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+    gateway:
+      enabled: true
+
+#spring:
+#  cloud:
+#    gateway:
+#      default-filters:
+#      - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+#      globalcors:
+#        cors-configurations:
+#          '[/**]':
+#            allowedOrigins: "*"
+#            allowedMethods: "*"
+#            allowedHeaders: "*"
+#      routes:
+#      - id: authorizeapp
+#        uri: http://localhost:9095
+#        predicates:
+#        - Path=/authorize/**
+#        
+#      - id: flightapp
+#        uri: http://localhost:9099
+#        predicates:
+#        - Path=/passenger/**
+#          
+#

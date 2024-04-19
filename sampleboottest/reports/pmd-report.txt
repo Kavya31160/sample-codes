@@ -1,0 +1,117 @@
+src/main/java/com/stackroute/sampleboottest/ClientApp.java:11:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/stackroute/sampleboottest/ClientApp.java:11:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/stackroute/sampleboottest/ClientApp.java:14:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'studservice'
+src/main/java/com/stackroute/sampleboottest/ClientApp.java:14:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/stackroute/sampleboottest/ClientApp.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/ClientApp.java:18:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'studentdetails' could be declared final
+src/main/java/com/stackroute/sampleboottest/ClientApp.java:18:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'studentdetails'
+src/main/java/com/stackroute/sampleboottest/ClientApp.java:22:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/ClientApp.java:22:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rollno' is not assigned and could be declared final
+src/main/java/com/stackroute/sampleboottest/ClientApp.java:24:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'studobj' could be declared final
+src/main/java/com/stackroute/sampleboottest/ClientApp.java:24:	UnnecessaryLocalBeforeReturn:	UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'studobj'
+src/main/java/com/stackroute/sampleboottest/ClientApp.java:28:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/ClientApp.java:28:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'stud' is not assigned and could be declared final
+src/main/java/com/stackroute/sampleboottest/ClientApp.java:33:	SystemPrintln:	SystemPrintln: Usage of System.out/err
+src/main/java/com/stackroute/sampleboottest/SampleboottestApplication.java:13:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/stackroute/sampleboottest/SampleboottestApplication.java:13:	UseUtilityClass:	UseUtilityClass: This utility class has a non-private constructor
+src/main/java/com/stackroute/sampleboottest/SampleboottestApplication.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/SampleboottestApplication.java:15:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final
+src/main/java/com/stackroute/sampleboottest/SampleboottestApplication.java:18:	CloseResource:	CloseResource: Ensure that resources like this AnnotationConfigApplicationContext object are closed after use
+src/main/java/com/stackroute/sampleboottest/SampleboottestApplication.java:18:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'context' could be declared final
+src/main/java/com/stackroute/sampleboottest/SampleboottestApplication.java:20:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'clientobj' could be declared final
+src/main/java/com/stackroute/sampleboottest/SampleboottestApplication.java:22:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'students' could be declared final
+src/main/java/com/stackroute/sampleboottest/StudentConfig.java:11:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/main/java/com/stackroute/sampleboottest/StudentConfig.java:11:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/stackroute/sampleboottest/StudentConfig.java:15:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/StudentConfig.java:21:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/StudentConfig.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/exceptions/InvalidDataException.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/stackroute/sampleboottest/exceptions/InvalidDataException.java:3:	MissingSerialVersionUID:	MissingSerialVersionUID: Classes implementing Serializable should set a serialVersionUID
+src/main/java/com/stackroute/sampleboottest/exceptions/InvalidDataException.java:5:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/exceptions/InvalidDataException.java:5:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'msg' is not assigned and could be declared final
+src/main/java/com/stackroute/sampleboottest/model/Student.java:3:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/stackroute/sampleboottest/model/Student.java:3:	DataClass:	DataClass: The class 'Student' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=6, WMC=9)
+src/main/java/com/stackroute/sampleboottest/model/Student.java:4:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'rollno'
+src/main/java/com/stackroute/sampleboottest/model/Student.java:4:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/stackroute/sampleboottest/model/Student.java:5:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'name'
+src/main/java/com/stackroute/sampleboottest/model/Student.java:5:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/stackroute/sampleboottest/model/Student.java:6:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'course'
+src/main/java/com/stackroute/sampleboottest/model/Student.java:6:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/stackroute/sampleboottest/model/Student.java:7:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/model/Student.java:7:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/stackroute/sampleboottest/model/Student.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/model/Student.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'course' is not assigned and could be declared final
+src/main/java/com/stackroute/sampleboottest/model/Student.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/stackroute/sampleboottest/model/Student.java:14:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rollno' is not assigned and could be declared final
+src/main/java/com/stackroute/sampleboottest/model/Student.java:23:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rollno' is not assigned and could be declared final
+src/main/java/com/stackroute/sampleboottest/model/Student.java:29:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final
+src/main/java/com/stackroute/sampleboottest/model/Student.java:35:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'course' is not assigned and could be declared final
+src/main/java/com/stackroute/sampleboottest/repository/StudentRepo.java:10:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/stackroute/sampleboottest/repository/StudentRepo.java:13:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'students'
+src/main/java/com/stackroute/sampleboottest/repository/StudentRepo.java:13:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/stackroute/sampleboottest/repository/StudentRepo.java:13:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ArrayList<>()`
+src/main/java/com/stackroute/sampleboottest/repository/StudentRepo.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/repository/StudentRepo.java:14:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/stackroute/sampleboottest/repository/StudentRepo.java:14:	UnnecessaryConstructor:	UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/stackroute/sampleboottest/repository/StudentRepo.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/repository/StudentRepo.java:27:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/repository/StudentRepo.java:27:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'stud' is not assigned and could be declared final
+src/main/java/com/stackroute/sampleboottest/repository/StudentRepo.java:33:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/repository/StudentRepo.java:33:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'roll' is not assigned and could be declared final
+src/main/java/com/stackroute/sampleboottest/repository/StudentRepo.java:36:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'optstudent' could be declared final
+src/main/java/com/stackroute/sampleboottest/repository/StudentRepo.java:38:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/stackroute/sampleboottest/repository/StudentRepo.java:38:	OnlyOneReturn:	OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/stackroute/sampleboottest/repository/StudentRepo.java:40:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/stackroute/sampleboottest/service/StudentService.java:8:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/stackroute/sampleboottest/service/StudentService.java:10:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/service/StudentService.java:12:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/service/StudentService.java:14:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/service/StudentService.java:16:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/service/StudentServiceImpl.java:12:	CommentRequired:	CommentRequired: Class comments are required
+src/main/java/com/stackroute/sampleboottest/service/StudentServiceImpl.java:15:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'repo'
+src/main/java/com/stackroute/sampleboottest/service/StudentServiceImpl.java:15:	CommentRequired:	CommentRequired: Field comments are required
+src/main/java/com/stackroute/sampleboottest/service/StudentServiceImpl.java:17:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/main/java/com/stackroute/sampleboottest/service/StudentServiceImpl.java:17:	UncommentedEmptyConstructor:	UncommentedEmptyConstructor: Document empty constructor
+src/main/java/com/stackroute/sampleboottest/service/StudentServiceImpl.java:17:	UnnecessaryConstructor:	UnnecessaryConstructor: Avoid unnecessary constructors - the compiler will generate these for you
+src/main/java/com/stackroute/sampleboottest/service/StudentServiceImpl.java:24:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'student' is not assigned and could be declared final
+src/main/java/com/stackroute/sampleboottest/service/StudentServiceImpl.java:24:	MissingOverride:	MissingOverride: The method 'addStudent(Student)' is missing an @Override annotation.
+src/main/java/com/stackroute/sampleboottest/service/StudentServiceImpl.java:28:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/stackroute/sampleboottest/service/StudentServiceImpl.java:30:	ControlStatementBraces:	ControlStatementBraces: This statement should have braces
+src/main/java/com/stackroute/sampleboottest/service/StudentServiceImpl.java:50:	MethodArgumentCouldBeFinal:	MethodArgumentCouldBeFinal: Parameter 'rollno' is not assigned and could be declared final
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:1:	TooManyStaticImports:	TooManyStaticImports: Too many static imports may lead to messy code
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:23:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:23:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:26:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'service'
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:26:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:30:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'clientapp'
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:30:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:32:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'students'
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:32:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:32:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ArrayList<>()`
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:35:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:44:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:48:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'actuals' could be declared final
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:50:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:55:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:55:	JUnitTestContainsTooManyAsserts:	JUnitTestContainsTooManyAsserts: Unit tests should not contain more than 1 assert(s).
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:57:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'student' could be declared final
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:60:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'result' could be declared final
+src/test/java/com/stackroute/sampleboottest/ClientAppTest.java:62:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
+src/test/java/com/stackroute/sampleboottest/SampleboottestApplicationTests.java:7:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/stackroute/sampleboottest/SampleboottestApplicationTests.java:7:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/stackroute/sampleboottest/SampleboottestApplicationTests.java:10:	JUnitTestsShouldIncludeAssert:	JUnitTestsShouldIncludeAssert: JUnit tests should include assert() or fail()
+src/test/java/com/stackroute/sampleboottest/SampleboottestApplicationTests.java:10:	UncommentedEmptyMethodBody:	UncommentedEmptyMethodBody: Document empty method body
+src/test/java/com/stackroute/sampleboottest/StudentServiceTest.java:22:	AtLeastOneConstructor:	AtLeastOneConstructor: Each class should declare at least one constructor
+src/test/java/com/stackroute/sampleboottest/StudentServiceTest.java:22:	CommentRequired:	CommentRequired: Class comments are required
+src/test/java/com/stackroute/sampleboottest/StudentServiceTest.java:25:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'repo'
+src/test/java/com/stackroute/sampleboottest/StudentServiceTest.java:25:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/stackroute/sampleboottest/StudentServiceTest.java:28:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'service'
+src/test/java/com/stackroute/sampleboottest/StudentServiceTest.java:28:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/stackroute/sampleboottest/StudentServiceTest.java:31:	CommentDefaultAccessModifier:	CommentDefaultAccessModifier: Missing commented default access modifier on field 'students'
+src/test/java/com/stackroute/sampleboottest/StudentServiceTest.java:31:	CommentRequired:	CommentRequired: Field comments are required
+src/test/java/com/stackroute/sampleboottest/StudentServiceTest.java:31:	UseDiamondOperator:	UseDiamondOperator: Explicit type arguments can be replaced by a diamond: `new ArrayList<>()`
+src/test/java/com/stackroute/sampleboottest/StudentServiceTest.java:34:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/stackroute/sampleboottest/StudentServiceTest.java:43:	CommentRequired:	CommentRequired: Public method and constructor comments are required
+src/test/java/com/stackroute/sampleboottest/StudentServiceTest.java:45:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'student' could be declared final
+src/test/java/com/stackroute/sampleboottest/StudentServiceTest.java:49:	LocalVariableCouldBeFinal:	LocalVariableCouldBeFinal: Local variable 'studresult' could be declared final
+src/test/java/com/stackroute/sampleboottest/StudentServiceTest.java:51:	JUnitAssertionsShouldIncludeMessage:	JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message
